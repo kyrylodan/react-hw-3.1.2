@@ -8,6 +8,7 @@ export const Menu = () => {
             <li><Link to="/posts/jsonplaceholder">Posts - JSONPlaceholder</Link></li>
             <li><Link to="/posts/dummyjson">Posts - DummyJSON</Link></li>
             <li><Link to="/comments/jsonplaceholder">Comments - JSONPlaceholder</Link></li>
+            <li><Link to="/comments/dummyjson">Comments - DummyJson</Link></li>
         </ul>
     );
 };
