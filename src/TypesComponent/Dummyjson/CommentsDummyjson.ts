@@ -1,4 +1,4 @@
-export interface User {
+export interface UserDummyjson {
     id: number;
     username: string;
     fullName: string;
@@ -9,7 +9,7 @@ export interface CommentDummyjson {
     body: string;
     postId: number;
     likes: number;
-    user: User;
+    user: UserDummyjson;
 }
 
 export interface CommentsResponse {
