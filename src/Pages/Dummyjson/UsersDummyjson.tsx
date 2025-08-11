@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import type {DummyJsonUser} from "../../TypesComponent/Dummyjson/UsersDummyjson.ts";
+import {Outlet} from "react-router";
 
 
 export const UsersDummyJson = () => {
@@ -20,6 +21,7 @@ export const UsersDummyJson = () => {
                     <p>{user.address.city}</p>
                 </div>
             ))}
+            <Outlet/>
         </>
     );
 };

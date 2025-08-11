@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import type {User} from "../../TypesComponent/TypeJson/UserType.ts";
+import {Outlet} from "react-router";
 
 
 export const UsersJsonplaceholder = () => {
@@ -20,6 +21,7 @@ export const UsersJsonplaceholder = () => {
                     <p>{user.address.city}</p>
                 </div>
             ))}
+            <Outlet/>
         </>
     );
 };
